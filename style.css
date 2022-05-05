@@ -47,11 +47,11 @@
 }
 
 li {
-	background:  #f0f54f;
+	background:  #4df2f2;
 	display:  inline-block;
 	width:  min-content;
 	margin-bottom:  10px;
-	padding-right:  10px;
+	padding-right:  15px;
 }
 
 ul {
@@ -59,10 +59,20 @@ ul {
 	flex-direction: column;
 }
 
-.silly-ascii-thing {
-	font-size:  40px;
+.silly-windows-thing {
 		display: flex;
   justify-content: center;
   align-items: center;
   flex:  1;
+
 }
+
+.contact-text {
+	overflow:  hidden;
+}
+
+.windows-video {
+	max-width:  70%;
+}
+
+
