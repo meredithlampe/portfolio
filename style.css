@@ -5,6 +5,8 @@
 }
 
 .contact {
+	min-height:  200px;
+	max-height:  400px;
 }
 
 .gridContainer {
@@ -125,4 +127,5 @@ ul {
 
 .project-box {
 	position:  relative;
+	min-height:  200px;
 }
