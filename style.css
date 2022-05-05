@@ -4,21 +4,11 @@
 
 }
 
-.rightCol {
-
-}
-
 .contact {
 }
 
 .gridContainer {
    display: grid;
-}
- 
-.top-left {
-}
-
-.top-right {
 }
 
 .marquee {
@@ -96,6 +86,26 @@ ul {
 .filler-project {
 	background:linear-gradient(90deg, rgba(213, 133, 255, 0.4), rgba(77, 242, 242, 0.4));
 	background-size:  cover;
+}
+
+.colatura-project {
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("assets/colatura_game.png");
+	background-size:  cover;
+}
+
+.colatura-project:hover {
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("assets/colatura_game.png");
+	background-size:  cover;
+}
+
+.police-project {
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("assets/police_project.png");
+	background-size: cover;
+}
+
+.police-project:hover {
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("assets/police_project.png");
+	background-size: cover;
 }
 
 .project-name {
