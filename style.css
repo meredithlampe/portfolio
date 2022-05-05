@@ -30,7 +30,6 @@
   justify-content: center;
   align-items: center;
   height:  35px;
-  border:1px solid black;
 }
 
 li {
@@ -63,25 +62,39 @@ ul {
 }
 
 .note-box {
-	background: #b3b2fe;
+	/*background: #b3b2fe;*/
 }
 
 .bg-pink {
-	background: #d585ff;
+	background: #f347ff7d;
 }
 
 .bg-cyan {
 	background: #4df2f2
 }
 
-.project-1 {
-	/*background-image: url("assets/daycare.jpeg");*/
-	background:linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("assets/daycare.jpeg");
+.daycare-project {
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("assets/daycare.jpeg");
 	background-size:  cover;
 }
 
-.project-1:hover {
+.daycare-project:hover {
 	background:linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("assets/daycare.jpeg");
+	background-size:  cover;
+}
+
+.restrooms-project {
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("assets/restrooms_homepage.png");
+	background-size:  cover;
+}
+
+.restrooms-project:hover {
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("assets/restrooms_homepage.png");
+	background-size:  cover;
+}
+
+.filler-project {
+	background:linear-gradient(90deg, rgba(213, 133, 255, 0.4), rgba(77, 242, 242, 0.4));
 	background-size:  cover;
 }
 
