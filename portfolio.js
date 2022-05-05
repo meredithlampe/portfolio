@@ -45,9 +45,9 @@ $(function () {
     //     clearInterval(this.animation);
     // }
 
-    var div3 = document.createElement('div');
-    let asciiContainer = $('.silly-ascii-thing');
-    asciiContainer.append(div3);
-    var animArray3 = [".(^-^)'","-(^-^)-","'(^-^).","-(^o^)-",".(^-^)'","-(^-^)-","'(^-^).","-(^-^)-"];
-    var anim3 = new ASCIIAnimation(animArray3, 125, div3);
+    // var div3 = document.createElement('div');
+    // let asciiContainer = $('.silly-ascii-thing');
+    // asciiContainer.append(div3);
+    // var animArray3 = [".(^-^)'","-(^-^)-","'(^-^).","-(^o^)-",".(^-^)'","-(^-^)-","'(^-^).","-(^-^)-"];
+    // var anim3 = new ASCIIAnimation(animArray3, 125, div3);
 });
