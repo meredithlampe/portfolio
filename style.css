@@ -1,0 +1,68 @@
+
+
+.leftCol {
+
+}
+
+.rightCol {
+
+}
+
+.contact {
+	padding: 10px;
+}
+
+.gridContainer {
+   display: grid;
+}
+ 
+
+.h-75 {
+	height:  75%;
+}
+
+.h-25 {
+	height:  25%;
+}
+
+.h-100 {
+	height:  100%;
+}
+.top-left {
+}
+
+.top-right {
+}
+
+.marquee {
+    overflow: hidden;
+}
+
+.marquee-container {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  height:  35px;
+  border:1px solid black;
+}
+
+li {
+	background:  #f0f54f;
+	display:  inline-block;
+	width:  min-content;
+	margin-bottom:  10px;
+	padding-right:  10px;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+}
+
+.silly-ascii-thing {
+	font-size:  40px;
+		display: flex;
+  justify-content: center;
+  align-items: center;
+  flex:  1;
+}
